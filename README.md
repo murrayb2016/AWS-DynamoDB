@@ -22,7 +22,15 @@ Steps:
     a) npm init 
     b) npm i 
 
+Running App
 
+This app can be started by two simple commands
+
+a) Compile the Typescript 
+    a) npm run tsc
+    b) npm run index
+
+b) Run examples that can be easily written to a Typescript file in dynamo-db-examples
 
 
 
