@@ -18,18 +18,6 @@ hbs_1.default.registerPartials(partialsPath);
 app.use(express_1.default.static(path_1.default.join(__dirname, "../public")));
 app.use(express_1.default.json());
 app.use(user_1.userRouter);
-app.get('', function (req, res) {
-    res.render('index', {
-        name: "EDI",
-        title: "Hello World!"
-    });
-});
-app.get('/about', function (req, res) {
-    res.render('about', {
-        name: "EDI",
-        title: "Hello World!"
-    });
-});
 app.listen(port, function () {
     console.log('Server is up on port ' + port);
 });

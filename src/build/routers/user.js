@@ -65,3 +65,15 @@ userRouter.post('/users', function (req, res) { return __awaiter(_this, void 0, 
         }
     });
 }); });
+userRouter.get('', function (req, res) {
+    res.render('index', {
+        name: "EDI",
+        title: "Hello World!"
+    });
+});
+userRouter.get('/about', function (req, res) {
+    res.render('about', {
+        name: "EDI",
+        title: "Hello World!"
+    });
+});

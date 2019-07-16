@@ -14,4 +14,18 @@ userRouter.post('/users', async (req, res) => {
     }
 });
 
+userRouter.get('', (req,res)=>{ 
+    res.render('index', {
+        name: "EDI", 
+        title: "Hello World!"
+    });
+});
+
+userRouter.get('/about', (req,res)=>{ 
+    res.render('about', {
+        name: "EDI", 
+        title: "Hello World!"
+    });
+});
+
 export {userRouter};
