@@ -13,7 +13,13 @@ Steps:
 
 NPM 
 
-This project contains the base NPM packages: dynamoose, aws-sdk
+Main npm packages being used: 
+
+a) dynamoose
+b) aws-sdk
+c) typescript
+d) express
+e) handlebars
 
 Steps: 
 
@@ -31,6 +37,8 @@ a) Compile the Typescript
     b) npm run index
 
 b) Run examples that can be easily written to a Typescript file in dynamo-db-examples
+
+This app is meant to be a starting point with the basic configuration with our enviornment. 
 
 
 
